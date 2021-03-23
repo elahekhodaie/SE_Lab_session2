@@ -3,12 +3,12 @@ public class Rectangle implements Shape{
     private double width;
 
     public Rectangle(float width, float height) {
-        this.height = height;
-        this.width = width;
+        this.setHeight(height);
+        this.setWidth(width);
     }
 
-    public double computeArea() {
-        return this.width * this.height;
+    public float computeArea() {
+        return getWidth() * getHeight();
     }
 
 
