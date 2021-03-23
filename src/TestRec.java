@@ -13,12 +13,14 @@ public class TestRec {
 
     @Test
     public void testSetRectangleWidth() {
+        Rectangle rectangle = new Rectangle(5,10);
         rectangle.setWidth(25);
         assertEquals(25, rectangle.getWidth(),0);
     }
 
     @Test
     public void testSetRectangleHeight() {
+        Rectangle rectangle = new Rectangle(5,10);
         rectangle.setHeight(20);
         assertEquals(20, rectangle.getHeight(),0);
     }
