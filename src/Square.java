@@ -1,4 +1,4 @@
-public class Square {
+public class Square implements Shape {
     private float side;
     public Square(float side) {
        this.setSide(side);

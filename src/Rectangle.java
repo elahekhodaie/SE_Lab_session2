@@ -1,4 +1,4 @@
-public class Rectangle {
+public class Rectangle implements Shape{
     private float height;
     private float width;
 
@@ -7,7 +7,7 @@ public class Rectangle {
         this.width = width;
     }
 
-    public float computeArea() {
+    public double computeArea() {
         return this.width * this.height;
     }
 
