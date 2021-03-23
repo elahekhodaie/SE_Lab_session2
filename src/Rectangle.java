@@ -7,7 +7,7 @@ public class Rectangle implements Shape{
         this.setWidth(width);
     }
 
-    public float computeArea() {
+    public double computeArea() {
         return getWidth() * getHeight();
     }
 
