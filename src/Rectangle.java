@@ -1,6 +1,6 @@
 public class Rectangle implements Shape{
-    private float height;
-    private float width;
+    private double height;
+    private double width;
 
     public Rectangle(float width, float height) {
         this.height = height;
@@ -12,11 +12,11 @@ public class Rectangle implements Shape{
     }
 
 
-    public float getHeight() {
+    public double getHeight() {
         return height;
     }
 
-    public float getWidth() {
+    public double getWidth() {
         return width;
     }
 
